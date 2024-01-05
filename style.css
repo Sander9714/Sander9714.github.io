@@ -1,0 +1,164 @@
+* {
+  text-align: center;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #9e4d1b;
+  font-family: "Poppins", sans-serif;
+  font-family: "PT Serif", serif;
+}
+
+header {
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom-style: ridge;
+  border-color: steelblue;
+  border-bottom-width: 10px;
+}
+h1 {
+  font-size: 50px;
+  transform: translateX(-110px);
+  text-decoration: underline;
+}
+ul {
+  list-style-type: none;
+  width: 900px;
+  display: flex;
+  justify-content: flex-end;
+}
+li {
+  font-size: 30px;
+  margin-left: 90px;
+}
+
+.section1 {
+  background-image: url(images/merkur1.jpg);
+  background-size: cover;
+  height: 1000px;
+  font-size: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.kortinfo {
+  color: white;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.kortintro {
+  color: white;
+  text-align: start;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+.section2 {
+}
+.h3one {
+  font-size: 40px;
+  margin: 20px;
+  text-decoration: underline;
+}
+.bilder {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  height: 1200px;
+}
+.bilde1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+.bilde2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+.bilde1,
+.bilde2,
+.bilde3 {
+  position: relative;
+  overflow: hidden;
+}
+.bilde1 img,
+.bilde2 img,
+.bilde3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bilde3 {
+  grid-column: span 2;
+  grid-row: 2;
+}
+.section3 {
+  background-image: url(images/space.jpg);
+  background-size: cover;
+  color: gold;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 400px;
+  border-style: ridge;
+  border-top-color: steelblue;
+  border-bottom-color: steelblue;
+  border-width: 0px;
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+}
+.h3two {
+  font-size: 40px;
+  margin: 20px;
+  text-decoration: underline;
+}
+.faktaliste {
+}
+.faktaliste li {
+  font-size: ;
+  padding: 0px;
+  margin-left: 0px;
+  text-align: start;
+}
+.section4 {
+  height: 700px;
+  font-size: 24px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tekst {
+  width: 700px;
+}
+p {
+  margin-bottom: 30px;
+  text-align: start;
+}
+.merkurrolle {
+  margin-bottom: 30px;
+  text-align: start;
+}
+.section5 {
+  height: 500px;
+  font-size: 24px;
+  width: 500px;
+  margin-left: 40px;
+  margin-top: 150px;
+  text-align: start;
+}
+.reltittel {
+  text-align: start;
+}
+.bilde4 img {
+  width: 500px;
+  height: auto;
+  transform: translate(800px, -350px);
+}
