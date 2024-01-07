@@ -22,8 +22,8 @@ header {
   border-bottom-width: 10px;
 }
 h1 {
-  font-size: 50px;
-  transform: translateX(-110px);
+  font-size: 45px;
+  transform: translateX(-50px);
   text-decoration: underline;
 }
 ul {
@@ -38,7 +38,7 @@ li {
 }
 
 .section1 {
-  background-image: url(images/merkur1.jpg);
+  background-image: url(./images/merkur1.jpg);
   background-size: cover;
   height: 1000px;
   font-size: 30px;
@@ -99,7 +99,7 @@ li {
   grid-row: 2;
 }
 .section3 {
-  background-image: url(images/space.jpg);
+  background-image: url(./images/space.jpg);
   background-size: cover;
   color: gold;
   display: flex;
@@ -157,8 +157,9 @@ p {
 .reltittel {
   text-align: start;
 }
+
 .bilde4 img {
-  width: 500px;
+  width: 400px;
   height: auto;
-  transform: translate(800px, -350px);
+  transform: translate(500px, -300px);
 }
